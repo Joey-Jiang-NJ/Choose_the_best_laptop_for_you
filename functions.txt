@@ -1,0 +1,6 @@
+Ideas:
+-CPU, GPU, Size
+-Filter Sorter
+-Automatic Recognition
+-Professionals to test professional software
+-Remove brand limitations

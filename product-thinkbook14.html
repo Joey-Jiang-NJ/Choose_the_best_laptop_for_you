@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThinkBook 14</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="detail-page">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+        >
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a
+              href="./index.html"
+              class="d-inline-flex link-body-emphasis text-decoration-none"
+            >
+              <img
+                src="./images/laptop-icon.png"
+                class="icon"
+                alt="laptop-icon"
+              />
+            </a>
+          </div>
+
+          <ul
+            class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="./index.html" class="nav-link px-2">Home</a>
+            </li>
+            <li>
+              <a
+                href="./categorization.html"
+                class="nav-link px-2 link-secondary"
+                >Categorizations</a
+              >
+            </li>
+            <!-- <li><a href="#" class="nav-link px-2">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2">About</a></li> -->
+          </ul>
+
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">
+              Login
+            </button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </header>
+      </div>
+
+      <!-- carousel -->
+      <div class="container">
+        <div class="slide-window">
+          <div id="carouselExampleIndicators" class="carousel slide mx-4 pt-4">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="srcImg"
+                  src="//p2-ofp.static.pub/fes/cms/2022/03/28/h9d146z4yp9j7yo912s2wbng6z8yty802669.jpg"
+                  alt="Top view of an open Lenovo ThinkBook 14 Gen 4 (Intel) laptop laying flat, showing the keyboard, trackpad, and display"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="srcImg"
+                  src="//p3-ofp.static.pub/fes/cms/2022/03/28/e4aslw2a4o7pe1f30s8fovv1xetklq666707.jpg"
+                  alt="Top left angle view of an open Lenovo ThinkBook 14 Gen 4 (Intel) laptop, showing the keyboard, trackpad, and display"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="srcImg"
+                  src="//p2-ofp.static.pub/fes/cms/2022/03/28/9cx2ptdyy11rqitimzgmuxx1fsqn2w452245.jpg"
+                  alt="Back right angle view of the Lenovo ThinkBook 14 Gen 4 (Intel) laptop, partial opened, showing the cover and part of the keyboard"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <h2 class="pb-2 border-bottom mb-4">System Specs:</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <b>Processor:</b> 12th Generation Intel® Core™ i7-1255U Processor
+          (E-cores up to 3.50 GHz P-cores up to 4.70 GHz)
+        </li>
+        <li class="list-group-item">
+          <b>Operating System:</b> Windows 11 Pro 64
+        </li>
+        <li class="list-group-item">
+          <b>Graphic Card:</b> Integrated Intel® Iris® Xe Graphics
+        </li>
+        <li class="list-group-item">
+          <b>Memory:</b> 16 GB DDR4-3200MHz - (8 GB Soldered + 8 GB SODIMM)
+        </li>
+        <li class="list-group-item">
+          <b>Storage:</b> 512 GB SSD M.2 2242 PCIe Gen3 TLC
+        </li>
+        <li class="list-group-item">
+          <b>Display:</b> 14" FHD (1920 x 1080), IPS, Anti-Glare, Touch,
+          45%NTSC, 300 nits, LED Backlight, Narrow Bezel
+        </li>
+        <li class="list-group-item">
+          <b>Camera:</b> 1080P FHD with Dual array digital Microphone and
+          ThinkShutter
+        </li>
+        <li class="list-group-item">
+          <b>Fingerprint Reader:</b> Fingerprint Reader
+        </li>
+        <li class="list-group-item">
+          <b>Keyboard:</b> Backlit, Iron Grey - English (US)
+        </li>
+        <li class="list-group-item">
+          <b>WLAN:</b> Wi-Fi 6 2x2 AX & Bluetooth® 5.1 or above
+        </li>
+        <li class="list-group-item"><b>Warranty:</b> One Year Onsite</li>
+        <!-- <li class="list-group-item"></li> -->
+      </ul>
+
+      <h2 class="pb-2 border-bottom mb-4 mt-4">Tester's Insights:</h2>
+    </div>
+
+    <!-- compare -->
+    <div class="container pb-5">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 compare">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+          </svg>
+              <use xlink:href="#collection"></use>
+            </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Strengths</h3>
+          <ul>
+            <li class="compares">standard 32GB memory</li>
+            <li class="compares">more interfaces + dual M.2 2280 hard disk space, good scalability
+            </li>
+            <li class="compares">better screen quality
+            </li>
+          </ul>
+
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-emoji-frown-fill" viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm-2.715 5.933a.5.5 0 0 1-.183-.683A4.498 4.498 0 0 1 8 9.5a4.5 4.5 0 0 1 3.898 2.25.5.5 0 0 1-.866.5A3.498 3.498 0 0 0 8 10.5a3.498 3.498 0 0 0-3.032 1.75.5.5 0 0 1-.683.183zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+          </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Weaknesses</h3>
+
+          <ul>
+            <li class="compares">the original adapter is not very portable</li>
+            <li class="compares">Thickness is thicker in the same type of thin and light notebook</li>
+            <li class="compares">under high loads, the keyboard has a large thermal sensation area</li>
+          </ul>
+         
+        </div> 
+      </div>
+
+      <h5>Buying advice <span class="badge bg-secondary">!!!</span></h5>
+      <p>1. Need richer external expansion <br>
+
+        2. Higher requirements for screen quality <br>
+        
+        3. not the pursuit of extreme portability <br>
+      </p>
+      <ul class="list-group">
+        <li class="list-group-item"><b>CPU:</b> The biggest change in the 2023 ThinkBook 14+ is the CPU and memory, which is equipped with this year's newly released 13th-generation Core processor, and the memory frequency has been upgraded to 5200MHz and comes standard with 32GB.</li>
+        <li class="list-group-item"><b>Screen:</b> last year's 2.8K 90Hz screen has been retained, the measured color gamut volume 112.4% sRGB, color gamut coverage 99.9% sRGB, average ΔE 1.17, maximum ΔE 4.5, the maximum brightness of 487nit, high brightness can be displayed normally even outdoors.</li>
+        <li class="list-group-item"><b>Interfaces:</b> In terms of interfaces, the left side of the body in order of USB-C (supports PD charging and video output), USB-A 5Gbps, HDMI2.0, Thunderbolt 4, and 3.5mm audio interface; <br> The right side of the body is an anti-theft locking clasp, RJ45 network port, USB-A 5Gbps, Micro SD card slot and a hidden USB2.0 port.</li>
+        <li class="list-group-item"><b>Endurance:</b> The duration of the medium-high load emulation test script was 5 hours and 30 minutes.</li>
+        <li class="list-group-item"><b>Noise:</b> It had a full human decibel rating of 48.3dB at an ambient noise level of 33.2dB.
+        </li>
+        <!-- <li class="list-group-item">And a fifth one</li> -->
+      </ul>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
